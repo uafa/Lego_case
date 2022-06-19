@@ -1,0 +1,381 @@
+1. Question
+
+Balmy Orange :
+[
+Material{id=9, name='Polyvinyl Chloride (PVC)', VendorId=1, pricePerUnit=25.0, currency='POUND', unit='kg', meltingPoint=25.0, tempUnit=F, deliveryTimeDays=7}, 
+Material{id=11, name='Polyvinyl Chloride (PVC)', VendorId=1, pricePerUnit=6.0, currency='POUND', unit='kg', meltingPoint=6.0, tempUnit=C, deliveryTimeDays=26}, 
+Material{id=30, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=1, pricePerUnit=12.0, currency='POUND', unit='kg', meltingPoint=12.0, tempUnit=C, deliveryTimeDays=39}, 
+Material{id=60, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=1, pricePerUnit=16.0, currency='USD', unit='lbs', meltingPoint=16.0, tempUnit=F, deliveryTimeDays=33}, 
+Material{id=66, name='Polymethyl Methacrylate (PMMA)', VendorId=1, pricePerUnit=20.0, currency='DKK', unit='kg', meltingPoint=20.0, tempUnit=C, deliveryTimeDays=7}, 
+Material{id=92, name='Polymethyl Methacrylate (PMMA)', VendorId=1, pricePerUnit=21.0, currency='USD', unit='lbs', meltingPoint=21.0, tempUnit=C, deliveryTimeDays=20}, 
+Material{id=163, name='Polyethylene (PE)', VendorId=1, pricePerUnit=5.0, currency='EURO', unit='lbs', meltingPoint=5.0, tempUnit=F, deliveryTimeDays=34}, 
+Material{id=176, name='Polypropylene (PP)', VendorId=1, pricePerUnit=24.0, currency='POUND', unit='lbs', meltingPoint=24.0, tempUnit=F, deliveryTimeDays=2}, 
+Material{id=197, name='Polycarbonate (PC)', VendorId=1, pricePerUnit=16.0, currency='EURO', unit='kg', meltingPoint=16.0, tempUnit=F, deliveryTimeDays=42}, 
+Material{id=242, name='Polyethylene (PE)', VendorId=1, pricePerUnit=9.0, currency='POUND', unit='kg', meltingPoint=9.0, tempUnit=C, deliveryTimeDays=32}, 
+Material{id=247, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=1, pricePerUnit=235.0, currency='DKK', unit='lbs', meltingPoint=235.0, tempUnit=F, deliveryTimeDays=9}, 
+Material{id=251, name='Polypropylene (PP)', VendorId=1, pricePerUnit=21.0, currency='EURO', unit='kg', meltingPoint=21.0, tempUnit=C, deliveryTimeDays=8}, 
+Material{id=253, name='Polyethylene (PE)', VendorId=1, pricePerUnit=25.0, currency='USD', unit='lbs', meltingPoint=25.0, tempUnit=C, deliveryTimeDays=12}, 
+Material{id=269, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=1, pricePerUnit=178.0, currency='DKK', unit='kg', meltingPoint=178.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=288, name='Polycarbonate (PC)', VendorId=1, pricePerUnit=3.0, currency='POUND', unit='lbs', meltingPoint=3.0, tempUnit=F, deliveryTimeDays=47}, 
+Material{id=291, name='Polymethyl Methacrylate (PMMA)', VendorId=1, pricePerUnit=28.0, currency='EURO', unit='lbs', meltingPoint=28.0, tempUnit=C, deliveryTimeDays=45}]
+
+Scorching Blue :
+[
+Material{id=31, name='Polyethylene Terephthalate (PET)', VendorId=2, pricePerUnit=34.0, currency='USD', unit='lbs', meltingPoint=34.0, tempUnit=F, deliveryTimeDays=13}, 
+Material{id=33, name='Polypropylene (PP)', VendorId=2, pricePerUnit=27.0, currency='USD', unit='lbs', meltingPoint=27.0, tempUnit=C, deliveryTimeDays=43}, 
+Material{id=34, name='Polyethylene Terephthalate (PET)', VendorId=2, pricePerUnit=2.0, currency='POUND', unit='lbs', meltingPoint=2.0, tempUnit=C, deliveryTimeDays=41}, 
+Material{id=43, name='Polycarbonate (PC)', VendorId=2, pricePerUnit=242.0, currency='DKK', unit='kg', meltingPoint=242.0, tempUnit=C, deliveryTimeDays=41}, 
+Material{id=51, name='Polycarbonate (PC)', VendorId=2, pricePerUnit=23.0, currency='POUND', unit='lbs', meltingPoint=23.0, tempUnit=C, deliveryTimeDays=20}, 
+Material{id=53, name='Polymethyl Methacrylate (PMMA)', VendorId=2, pricePerUnit=7.0, currency='USD', unit='kg', meltingPoint=7.0, tempUnit=F, deliveryTimeDays=39}, 
+Material{id=64, name='Polypropylene (PP)', VendorId=2, pricePerUnit=21.0, currency='POUND', unit='lbs', meltingPoint=21.0, tempUnit=F, deliveryTimeDays=9}, 
+Material{id=72, name='Polycarbonate (PC)', VendorId=2, pricePerUnit=37.0, currency='USD', unit='kg', meltingPoint=37.0, tempUnit=F, deliveryTimeDays=22}, 
+Material{id=87, name='Polycarbonate (PC)', VendorId=2, pricePerUnit=38.0, currency='USD', unit='kg', meltingPoint=38.0, tempUnit=C, deliveryTimeDays=33}, 
+Material{id=158, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=2, pricePerUnit=31.0, currency='EURO', unit='kg', meltingPoint=31.0, tempUnit=F, deliveryTimeDays=4}, 
+Material{id=205, name='Polyethylene Terephthalate (PET)', VendorId=2, pricePerUnit=36.0, currency='USD', unit='lbs', meltingPoint=36.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=237, name='Polyethylene Terephthalate (PET)', VendorId=2, pricePerUnit=281.0, currency='DKK', unit='kg', meltingPoint=281.0, tempUnit=C, deliveryTimeDays=19}, 
+Material{id=259, name='Polyethylene (PE)', VendorId=2, pricePerUnit=25.0, currency='EURO', unit='lbs', meltingPoint=25.0, tempUnit=C, deliveryTimeDays=28}, 
+Material{id=266, name='Polymethyl Methacrylate (PMMA)', VendorId=2, pricePerUnit=40.0, currency='USD', unit='lbs', meltingPoint=40.0, tempUnit=C, deliveryTimeDays=18}]
+
+Bracing Vej Best :
+[
+Material{id=117, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=3, pricePerUnit=38.0, currency='EURO', unit='kg', meltingPoint=38.0, tempUnit=F, deliveryTimeDays=3}, 
+Material{id=122, name='Polyethylene (PE)', VendorId=3, pricePerUnit=39.0, currency='EURO', unit='lbs', meltingPoint=39.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=123, name='Polymethyl Methacrylate (PMMA)', VendorId=3, pricePerUnit=12.0, currency='USD', unit='lbs', meltingPoint=12.0, tempUnit=C, deliveryTimeDays=34}, 
+Material{id=124, name='Polypropylene (PP)', VendorId=3, pricePerUnit=30.0, currency='USD', unit='kg', meltingPoint=30.0, tempUnit=F, deliveryTimeDays=1}, 
+Material{id=127, name='Polycarbonate (PC)', VendorId=3, pricePerUnit=211.0, currency='DKK', unit='lbs', meltingPoint=211.0, tempUnit=C, deliveryTimeDays=10}, 
+Material{id=130, name='Polyethylene (PE)', VendorId=3, pricePerUnit=18.0, currency='USD', unit='lbs', meltingPoint=18.0, tempUnit=C, deliveryTimeDays=26}, 
+Material{id=131, name='Polypropylene (PP)', VendorId=3, pricePerUnit=35.0, currency='EURO', unit='lbs', meltingPoint=35.0, tempUnit=F, deliveryTimeDays=43}, 
+Material{id=194, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=3, pricePerUnit=29.0, currency='EURO', unit='lbs', meltingPoint=29.0, tempUnit=C, deliveryTimeDays=36}, 
+Material{id=210, name='Polyethylene (PE)', VendorId=3, pricePerUnit=184.0, currency='DKK', unit='kg', meltingPoint=184.0, tempUnit=C, deliveryTimeDays=27}, 
+Material{id=217, name='Polymethyl Methacrylate (PMMA)', VendorId=3, pricePerUnit=60.0, currency='DKK', unit='kg', meltingPoint=60.0, tempUnit=C, deliveryTimeDays=3}, 
+Material{id=222, name='Polyethylene (PE)', VendorId=3, pricePerUnit=4.0, currency='POUND', unit='kg', meltingPoint=4.0, tempUnit=F, deliveryTimeDays=43}, 
+Material{id=230, name='Polycarbonate (PC)', VendorId=3, pricePerUnit=7.0, currency='EURO', unit='kg', meltingPoint=7.0, tempUnit=C, deliveryTimeDays=43}, 
+Material{id=257, name='Polyethylene Terephthalate (PET)', VendorId=3, pricePerUnit=33.0, currency='USD', unit='lbs', meltingPoint=33.0, tempUnit=C, deliveryTimeDays=40}, 
+Material{id=281, name='Polyvinyl Chloride (PVC)', VendorId=3, pricePerUnit=33.0, currency='USD', unit='kg', meltingPoint=33.0, tempUnit=F, deliveryTimeDays=36}, 
+Material{id=296, name='Polyvinyl Chloride (PVC)', VendorId=3, pricePerUnit=28.0, currency='USD', unit='lbs', meltingPoint=28.0, tempUnit=C, deliveryTimeDays=7}]
+
+Street Bracing :
+[
+Material{id=19, name='Polypropylene (PP)', VendorId=4, pricePerUnit=27.0, currency='POUND', unit='lbs', meltingPoint=27.0, tempUnit=F, deliveryTimeDays=24}, 
+Material{id=24, name='Polypropylene (PP)', VendorId=4, pricePerUnit=5.0, currency='POUND', unit='kg', meltingPoint=5.0, tempUnit=F, deliveryTimeDays=34}, 
+Material{id=44, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=4, pricePerUnit=25.0, currency='POUND', unit='lbs', meltingPoint=25.0, tempUnit=F, deliveryTimeDays=21}, 
+Material{id=61, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=4, pricePerUnit=25.0, currency='POUND', unit='kg', meltingPoint=25.0, tempUnit=F, deliveryTimeDays=36}, 
+Material{id=79, name='Polyvinyl Chloride (PVC)', VendorId=4, pricePerUnit=16.0, currency='POUND', unit='kg', meltingPoint=16.0, tempUnit=C, deliveryTimeDays=43}, 
+Material{id=86, name='Polypropylene (PP)', VendorId=4, pricePerUnit=1.0, currency='EURO', unit='lbs', meltingPoint=1.0, tempUnit=C, deliveryTimeDays=22}, 
+Material{id=102, name='Polyvinyl Chloride (PVC)', VendorId=4, pricePerUnit=24.0, currency='USD', unit='lbs', meltingPoint=24.0, tempUnit=C, deliveryTimeDays=14}, 
+Material{id=104, name='Polyethylene Terephthalate (PET)', VendorId=4, pricePerUnit=14.0, currency='USD', unit='kg', meltingPoint=14.0, tempUnit=C, deliveryTimeDays=34}, 
+Material{id=135, name='Polymethyl Methacrylate (PMMA)', VendorId=4, pricePerUnit=44.0, currency='USD', unit='lbs', meltingPoint=44.0, tempUnit=F, deliveryTimeDays=10}, 
+Material{id=171, name='Polypropylene (PP)', VendorId=4, pricePerUnit=33.0, currency='EURO', unit='kg', meltingPoint=33.0, tempUnit=C, deliveryTimeDays=28}, 
+Material{id=177, name='Polycarbonate (PC)', VendorId=4, pricePerUnit=25.0, currency='EURO', unit='kg', meltingPoint=25.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=178, name='Polyethylene (PE)', VendorId=4, pricePerUnit=116.0, currency='DKK', unit='lbs', meltingPoint=116.0, tempUnit=C, deliveryTimeDays=13}, 
+Material{id=189, name='Polyethylene Terephthalate (PET)', VendorId=4, pricePerUnit=96.0, currency='DKK', unit='lbs', meltingPoint=96.0, tempUnit=C, deliveryTimeDays=31}, 
+Material{id=297, name='Polymethyl Methacrylate (PMMA)', VendorId=4, pricePerUnit=156.0, currency='DKK', unit='kg', meltingPoint=156.0, tempUnit=C, deliveryTimeDays=9}]
+
+Ally Freezing :
+[
+Material{id=12, name='Polypropylene (PP)', VendorId=5, pricePerUnit=28.0, currency='EURO', unit='lbs', meltingPoint=28.0, tempUnit=F, deliveryTimeDays=11}, 
+Material{id=14, name='Polymethyl Methacrylate (PMMA)', VendorId=5, pricePerUnit=13.0, currency='EURO', unit='kg', meltingPoint=13.0, tempUnit=C, deliveryTimeDays=1}, 
+Material{id=20, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=5, pricePerUnit=17.0, currency='EURO', unit='lbs', meltingPoint=17.0, tempUnit=F, deliveryTimeDays=24}, 
+Material{id=36, name='Polymethyl Methacrylate (PMMA)', VendorId=5, pricePerUnit=29.0, currency='POUND', unit='lbs', meltingPoint=29.0, tempUnit=F, deliveryTimeDays=14}, 
+Material{id=38, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=5, pricePerUnit=9.0, currency='EURO', unit='kg', meltingPoint=9.0, tempUnit=F, deliveryTimeDays=22}, 
+Material{id=42, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=5, pricePerUnit=33.0, currency='USD', unit='lbs', meltingPoint=33.0, tempUnit=F, deliveryTimeDays=28}, 
+Material{id=98, name='Polycarbonate (PC)', VendorId=5, pricePerUnit=28.0, currency='USD', unit='lbs', meltingPoint=28.0, tempUnit=F, deliveryTimeDays=4}, 
+Material{id=101, name='Polyethylene Terephthalate (PET)', VendorId=5, pricePerUnit=31.0, currency='POUND', unit='kg', meltingPoint=31.0, tempUnit=F, deliveryTimeDays=31}, 
+Material{id=118, name='Polyethylene (PE)', VendorId=5, pricePerUnit=25.0, currency='USD', unit='kg', meltingPoint=25.0, tempUnit=C, deliveryTimeDays=34}, 
+Material{id=150, name='Polyvinyl Chloride (PVC)', VendorId=5, pricePerUnit=5.0, currency='EURO', unit='kg', meltingPoint=5.0, tempUnit=C, deliveryTimeDays=29}, 
+Material{id=151, name='Polycarbonate (PC)', VendorId=5, pricePerUnit=7.0, currency='USD', unit='kg', meltingPoint=7.0, tempUnit=C, deliveryTimeDays=32}, 
+Material{id=174, name='Polyethylene (PE)', VendorId=5, pricePerUnit=23.0, currency='USD', unit='kg', meltingPoint=23.0, tempUnit=F, deliveryTimeDays=41}, 
+Material{id=202, name='Polycarbonate (PC)', VendorId=5, pricePerUnit=23.0, currency='POUND', unit='kg', meltingPoint=23.0, tempUnit=C, deliveryTimeDays=19}, 
+Material{id=223, name='Polypropylene (PP)', VendorId=5, pricePerUnit=3.0, currency='EURO', unit='kg', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=21}, 
+Material{id=258, name='Polyethylene (PE)', VendorId=5, pricePerUnit=32.0, currency='USD', unit='kg', meltingPoint=32.0, tempUnit=F, deliveryTimeDays=28}, 
+Material{id=289, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=5, pricePerUnit=8.0, currency='USD', unit='kg', meltingPoint=8.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=293, name='Polycarbonate (PC)', VendorId=5, pricePerUnit=31.0, currency='POUND', unit='kg', meltingPoint=31.0, tempUnit=C, deliveryTimeDays=9}]
+
+Dragon Omega First :
+[
+Material{id=4, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=99.0, currency='DKK', unit='kg', meltingPoint=99.0, tempUnit=F, deliveryTimeDays=32}, 
+Material{id=21, name='Polyethylene (PE)', VendorId=6, pricePerUnit=20.0, currency='USD', unit='kg', meltingPoint=20.0, tempUnit=C, deliveryTimeDays=12}, 
+Material{id=25, name='Polyethylene Terephthalate (PET)', VendorId=6, pricePerUnit=113.0, currency='DKK', unit='lbs', meltingPoint=113.0, tempUnit=F, deliveryTimeDays=35}, 
+Material{id=73, name='Polyethylene Terephthalate (PET)', VendorId=6, pricePerUnit=8.0, currency='POUND', unit='kg', meltingPoint=8.0, tempUnit=F, deliveryTimeDays=40}, 
+Material{id=78, name='Polyethylene (PE)', VendorId=6, pricePerUnit=1.0, currency='USD', unit='lbs', meltingPoint=1.0, tempUnit=C, deliveryTimeDays=14}, 
+Material{id=91, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=17.0, currency='EURO', unit='lbs', meltingPoint=17.0, tempUnit=F, deliveryTimeDays=27}, 
+Material{id=111, name='Polyvinyl Chloride (PVC)', VendorId=6, pricePerUnit=280.0, currency='DKK', unit='lbs', meltingPoint=280.0, tempUnit=C, deliveryTimeDays=46}, 
+Material{id=148, name='Polyethylene (PE)', VendorId=6, pricePerUnit=13.0, currency='POUND', unit='kg', meltingPoint=13.0, tempUnit=F, deliveryTimeDays=26}, 
+Material{id=179, name='Polymethyl Methacrylate (PMMA)', VendorId=6, pricePerUnit=37.0, currency='EURO', unit='kg', meltingPoint=37.0, tempUnit=F, deliveryTimeDays=35}, 
+Material{id=192, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=26.0, currency='EURO', unit='kg', meltingPoint=26.0, tempUnit=F, deliveryTimeDays=15}, 
+Material{id=206, name='Polyvinyl Chloride (PVC)', VendorId=6, pricePerUnit=30.0, currency='EURO', unit='kg', meltingPoint=30.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=212, name='Polyethylene (PE)', VendorId=6, pricePerUnit=3.0, currency='POUND', unit='lbs', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=221, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=153.0, currency='DKK', unit='kg', meltingPoint=153.0, tempUnit=C, deliveryTimeDays=35}, 
+Material{id=225, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=15.0, currency='USD', unit='kg', meltingPoint=15.0, tempUnit=C, deliveryTimeDays=31}, 
+Material{id=226, name='Polyethylene (PE)', VendorId=6, pricePerUnit=11.0, currency='EURO', unit='lbs', meltingPoint=11.0, tempUnit=F, deliveryTimeDays=29}, 
+Material{id=229, name='Polycarbonate (PC)', VendorId=6, pricePerUnit=21.0, currency='POUND', unit='kg', meltingPoint=21.0, tempUnit=F, deliveryTimeDays=23}, 
+Material{id=282, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=23.0, currency='EURO', unit='kg', meltingPoint=23.0, tempUnit=C, deliveryTimeDays=41}, 
+Material{id=290, name='Polyethylene (PE)', VendorId=6, pricePerUnit=22.0, currency='POUND', unit='kg', meltingPoint=22.0, tempUnit=C, deliveryTimeDays=35}, 
+Material{id=300, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=6, pricePerUnit=26.0, currency='DKK', unit='lbs', meltingPoint=26.0, tempUnit=F, deliveryTimeDays=39}]
+
+Vej Vej :
+[
+Material{id=85, name='Polycarbonate (PC)', VendorId=7, pricePerUnit=29.0, currency='EURO', unit='lbs', meltingPoint=29.0, tempUnit=F, deliveryTimeDays=40}, 
+Material{id=110, name='Polyvinyl Chloride (PVC)', VendorId=7, pricePerUnit=4.0, currency='USD', unit='lbs', meltingPoint=4.0, tempUnit=C, deliveryTimeDays=29}, 
+Material{id=126, name='Polypropylene (PP)', VendorId=7, pricePerUnit=148.0, currency='DKK', unit='lbs', meltingPoint=148.0, tempUnit=F, deliveryTimeDays=28}, 
+Material{id=186, name='Polypropylene (PP)', VendorId=7, pricePerUnit=26.0, currency='POUND', unit='lbs', meltingPoint=26.0, tempUnit=C, deliveryTimeDays=15}, 
+Material{id=195, name='Polymethyl Methacrylate (PMMA)', VendorId=7, pricePerUnit=246.0, currency='DKK', unit='kg', meltingPoint=246.0, tempUnit=C, deliveryTimeDays=23}, 
+Material{id=211, name='Polyethylene Terephthalate (PET)', VendorId=7, pricePerUnit=3.0, currency='POUND', unit='kg', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=10}, 
+Material{id=231, name='Polyethylene Terephthalate (PET)', VendorId=7, pricePerUnit=5.0, currency='USD', unit='lbs', meltingPoint=5.0, tempUnit=C, deliveryTimeDays=24}, 
+Material{id=280, name='Polyethylene (PE)', VendorId=7, pricePerUnit=17.0, currency='USD', unit='lbs', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=40}, 
+Material{id=295, name='Polymethyl Methacrylate (PMMA)', VendorId=7, pricePerUnit=38.0, currency='EURO', unit='lbs', meltingPoint=38.0, tempUnit=F, deliveryTimeDays=34}]
+
+Chilly Blue Omega :
+[
+Material{id=15, name='Polypropylene (PP)', VendorId=8, pricePerUnit=16.0, currency='USD', unit='lbs', meltingPoint=16.0, tempUnit=C, deliveryTimeDays=41}, 
+Material{id=18, name='Polyethylene (PE)', VendorId=8, pricePerUnit=11.0, currency='POUND', unit='kg', meltingPoint=11.0, tempUnit=F, deliveryTimeDays=30}, 
+Material{id=23, name='Polyvinyl Chloride (PVC)', VendorId=8, pricePerUnit=5.0, currency='USD', unit='lbs', meltingPoint=5.0, tempUnit=C, deliveryTimeDays=40}, 
+Material{id=88, name='Polyethylene (PE)', VendorId=8, pricePerUnit=14.0, currency='EURO', unit='lbs', meltingPoint=14.0, tempUnit=F, deliveryTimeDays=27}, 
+Material{id=99, name='Polypropylene (PP)', VendorId=8, pricePerUnit=14.0, currency='POUND', unit='kg', meltingPoint=14.0, tempUnit=F, deliveryTimeDays=4}, 
+Material{id=112, name='Polycarbonate (PC)', VendorId=8, pricePerUnit=22.0, currency='USD', unit='kg', meltingPoint=22.0, tempUnit=F, deliveryTimeDays=2}, 
+Material{id=120, name='Polypropylene (PP)', VendorId=8, pricePerUnit=38.0, currency='USD', unit='kg', meltingPoint=38.0, tempUnit=F, deliveryTimeDays=39}, 
+Material{id=145, name='Polyethylene Terephthalate (PET)', VendorId=8, pricePerUnit=17.0, currency='POUND', unit='lbs', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=3}, 
+Material{id=159, name='Polyethylene (PE)', VendorId=8, pricePerUnit=31.0, currency='EURO', unit='lbs', meltingPoint=31.0, tempUnit=C, deliveryTimeDays=42}, 
+Material{id=167, name='Polycarbonate (PC)', VendorId=8, pricePerUnit=14.0, currency='POUND', unit='kg', meltingPoint=14.0, tempUnit=C, deliveryTimeDays=10}, 
+Material{id=168, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=8, pricePerUnit=10.0, currency='POUND', unit='kg', meltingPoint=10.0, tempUnit=F, deliveryTimeDays=31}, 
+Material{id=184, name='Polyethylene (PE)', VendorId=8, pricePerUnit=2.0, currency='POUND', unit='kg', meltingPoint=2.0, tempUnit=C, deliveryTimeDays=30}, 
+Material{id=200, name='Polyvinyl Chloride (PVC)', VendorId=8, pricePerUnit=10.0, currency='EURO', unit='kg', meltingPoint=10.0, tempUnit=C, deliveryTimeDays=10}, 
+Material{id=203, name='Polypropylene (PP)', VendorId=8, pricePerUnit=33.0, currency='USD', unit='kg', meltingPoint=33.0, tempUnit=F, deliveryTimeDays=42}, 
+Material{id=209, name='Polyethylene Terephthalate (PET)', VendorId=8, pricePerUnit=101.0, currency='DKK', unit='lbs', meltingPoint=101.0, tempUnit=F, deliveryTimeDays=15}, 
+Material{id=213, name='Polymethyl Methacrylate (PMMA)', VendorId=8, pricePerUnit=22.0, currency='EURO', unit='kg', meltingPoint=22.0, tempUnit=C, deliveryTimeDays=12}, 
+Material{id=227, name='Polyvinyl Chloride (PVC)', VendorId=8, pricePerUnit=41.0, currency='USD', unit='lbs', meltingPoint=41.0, tempUnit=C, deliveryTimeDays=45}, 
+Material{id=261, name='Polyvinyl Chloride (PVC)', VendorId=8, pricePerUnit=183.0, currency='DKK', unit='lbs', meltingPoint=183.0, tempUnit=F, deliveryTimeDays=20}, 
+Material{id=265, name='Polyethylene (PE)', VendorId=8, pricePerUnit=11.0, currency='USD', unit='lbs', meltingPoint=11.0, tempUnit=F, deliveryTimeDays=46}]
+
+Warm Blue Best :
+[
+Material{id=10, name='Polypropylene (PP)', VendorId=9, pricePerUnit=36.0, currency='USD', unit='kg', meltingPoint=36.0, tempUnit=F, deliveryTimeDays=10}, 
+Material{id=70, name='Polymethyl Methacrylate (PMMA)', VendorId=9, pricePerUnit=24.0, currency='USD', unit='kg', meltingPoint=24.0, tempUnit=C, deliveryTimeDays=33}, 
+Material{id=83, name='Polyethylene (PE)', VendorId=9, pricePerUnit=1.0, currency='EURO', unit='lbs', meltingPoint=1.0, tempUnit=C, deliveryTimeDays=40}, 
+Material{id=93, name='Polyethylene (PE)', VendorId=9, pricePerUnit=239.0, currency='DKK', unit='lbs', meltingPoint=239.0, tempUnit=C, deliveryTimeDays=15}, 
+Material{id=97, name='Polymethyl Methacrylate (PMMA)', VendorId=9, pricePerUnit=13.0, currency='EURO', unit='kg', meltingPoint=13.0, tempUnit=C, deliveryTimeDays=14}, 
+Material{id=114, name='Polyethylene (PE)', VendorId=9, pricePerUnit=38.0, currency='EURO', unit='lbs', meltingPoint=38.0, tempUnit=F, deliveryTimeDays=31}, 
+Material{id=125, name='Polyvinyl Chloride (PVC)', VendorId=9, pricePerUnit=11.0, currency='USD', unit='kg', meltingPoint=11.0, tempUnit=C, deliveryTimeDays=18}, 
+Material{id=152, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=9, pricePerUnit=35.0, currency='USD', unit='kg', meltingPoint=35.0, tempUnit=C, deliveryTimeDays=24}, 
+Material{id=228, name='Polypropylene (PP)', VendorId=9, pricePerUnit=3.0, currency='USD', unit='lbs', meltingPoint=3.0, tempUnit=F, deliveryTimeDays=38}, 
+Material{id=244, name='Polypropylene (PP)', VendorId=9, pricePerUnit=226.0, currency='DKK', unit='kg', meltingPoint=226.0, tempUnit=F, deliveryTimeDays=26}, 
+Material{id=249, name='Polymethyl Methacrylate (PMMA)', VendorId=9, pricePerUnit=5.0, currency='POUND', unit='lbs', meltingPoint=5.0, tempUnit=F, deliveryTimeDays=7}, 
+Material{id=254, name='Polyvinyl Chloride (PVC)', VendorId=9, pricePerUnit=15.0, currency='USD', unit='lbs', meltingPoint=15.0, tempUnit=F, deliveryTimeDays=33}, 
+Material{id=274, name='Polycarbonate (PC)', VendorId=9, pricePerUnit=278.0, currency='DKK', unit='kg', meltingPoint=278.0, tempUnit=C, deliveryTimeDays=26}, 
+Material{id=283, name='Polyethylene Terephthalate (PET)', VendorId=9, pricePerUnit=6.0, currency='EURO', unit='lbs', meltingPoint=6.0, tempUnit=F, deliveryTimeDays=18}, 
+Material{id=294, name='Polyethylene (PE)', VendorId=9, pricePerUnit=79.0, currency='DKK', unit='lbs', meltingPoint=79.0, tempUnit=C, deliveryTimeDays=2}]
+
+Great Ally :
+[
+Material{id=7, name='Polycarbonate (PC)', VendorId=10, pricePerUnit=36.0, currency='USD', unit='kg', meltingPoint=36.0, tempUnit=C, deliveryTimeDays=34}, 
+Material{id=26, name='Polyethylene (PE)', VendorId=10, pricePerUnit=33.0, currency='POUND', unit='kg', meltingPoint=33.0, tempUnit=C, deliveryTimeDays=8}, 
+Material{id=39, name='Polyethylene Terephthalate (PET)', VendorId=10, pricePerUnit=27.0, currency='USD', unit='lbs', meltingPoint=27.0, tempUnit=C, deliveryTimeDays=39}, 
+Material{id=40, name='Polyvinyl Chloride (PVC)', VendorId=10, pricePerUnit=201.0, currency='DKK', unit='lbs', meltingPoint=201.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=48, name='Polyethylene (PE)', VendorId=10, pricePerUnit=266.0, currency='DKK', unit='lbs', meltingPoint=266.0, tempUnit=C, deliveryTimeDays=6}, 
+Material{id=56, name='Polycarbonate (PC)', VendorId=10, pricePerUnit=9.0, currency='USD', unit='kg', meltingPoint=9.0, tempUnit=F, deliveryTimeDays=13}, 
+Material{id=59, name='Polypropylene (PP)', VendorId=10, pricePerUnit=32.0, currency='EURO', unit='kg', meltingPoint=32.0, tempUnit=C, deliveryTimeDays=36}, 
+Material{id=80, name='Polyvinyl Chloride (PVC)', VendorId=10, pricePerUnit=26.0, currency='DKK', unit='lbs', meltingPoint=26.0, tempUnit=F, deliveryTimeDays=15}, 
+Material{id=121, name='Polyethylene Terephthalate (PET)', VendorId=10, pricePerUnit=21.0, currency='EURO', unit='lbs', meltingPoint=21.0, tempUnit=F, deliveryTimeDays=3}, 
+Material{id=132, name='Polycarbonate (PC)', VendorId=10, pricePerUnit=128.0, currency='DKK', unit='lbs', meltingPoint=128.0, tempUnit=F, deliveryTimeDays=41}, 
+Material{id=138, name='Polycarbonate (PC)', VendorId=10, pricePerUnit=39.0, currency='EURO', unit='lbs', meltingPoint=39.0, tempUnit=F, deliveryTimeDays=19}, 
+Material{id=142, name='Polycarbonate (PC)', VendorId=10, pricePerUnit=33.0, currency='USD', unit='kg', meltingPoint=33.0, tempUnit=C, deliveryTimeDays=28}, 
+Material{id=190, name='Polyvinyl Chloride (PVC)', VendorId=10, pricePerUnit=1.0, currency='POUND', unit='lbs', meltingPoint=1.0, tempUnit=C, deliveryTimeDays=5}, 
+Material{id=219, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=10, pricePerUnit=62.0, currency='DKK', unit='kg', meltingPoint=62.0, tempUnit=C, deliveryTimeDays=19}, 
+Material{id=235, name='Polyethylene Terephthalate (PET)', VendorId=10, pricePerUnit=153.0, currency='DKK', unit='lbs', meltingPoint=153.0, tempUnit=F, deliveryTimeDays=10}, 
+Material{id=248, name='Polyethylene (PE)', VendorId=10, pricePerUnit=20.0, currency='USD', unit='kg', meltingPoint=20.0, tempUnit=F, deliveryTimeDays=8}, 
+Material{id=263, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=10, pricePerUnit=32.0, currency='USD', unit='lbs', meltingPoint=32.0, tempUnit=F, deliveryTimeDays=13}]
+
+Butterfly Warm Blue :
+[
+Material{id=5, name='Polyethylene Terephthalate (PET)', VendorId=11, pricePerUnit=30.0, currency='POUND', unit='lbs', meltingPoint=30.0, tempUnit=F, deliveryTimeDays=15}, 
+Material{id=13, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=11, pricePerUnit=274.0, currency='DKK', unit='lbs', meltingPoint=274.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=22, name='Polyethylene (PE)', VendorId=11, pricePerUnit=20.0, currency='EURO', unit='lbs', meltingPoint=20.0, tempUnit=C, deliveryTimeDays=42}, 
+Material{id=29, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=11, pricePerUnit=24.0, currency='EURO', unit='kg', meltingPoint=24.0, tempUnit=C, deliveryTimeDays=30}, 
+Material{id=37, name='Polypropylene (PP)', VendorId=11, pricePerUnit=30.0, currency='EURO', unit='kg', meltingPoint=30.0, tempUnit=C, deliveryTimeDays=10}, 
+Material{id=46, name='Polypropylene (PP)', VendorId=11, pricePerUnit=24.0, currency='EURO', unit='lbs', meltingPoint=24.0, tempUnit=F, deliveryTimeDays=39}, 
+Material{id=54, name='Polycarbonate (PC)', VendorId=11, pricePerUnit=1.0, currency='POUND', unit='kg', meltingPoint=1.0, tempUnit=C, deliveryTimeDays=30}, 
+Material{id=77, name='Polyethylene Terephthalate (PET)', VendorId=11, pricePerUnit=14.0, currency='POUND', unit='lbs', meltingPoint=14.0, tempUnit=F, deliveryTimeDays=46}, 
+Material{id=119, name='Polymethyl Methacrylate (PMMA)', VendorId=11, pricePerUnit=13.0, currency='EURO', unit='lbs', meltingPoint=13.0, tempUnit=C, deliveryTimeDays=29}, 
+Material{id=157, name='Polypropylene (PP)', VendorId=11, pricePerUnit=192.0, currency='DKK', unit='lbs', meltingPoint=192.0, tempUnit=F, deliveryTimeDays=4}, 
+Material{id=232, name='Polyvinyl Chloride (PVC)', VendorId=11, pricePerUnit=11.0, currency='USD', unit='kg', meltingPoint=11.0, tempUnit=C, deliveryTimeDays=3}, 
+Material{id=239, name='Polypropylene (PP)', VendorId=11, pricePerUnit=22.0, currency='EURO', unit='lbs', meltingPoint=22.0, tempUnit=C, deliveryTimeDays=36}, 
+Material{id=245, name='Polycarbonate (PC)', VendorId=11, pricePerUnit=6.0, currency='EURO', unit='kg', meltingPoint=6.0, tempUnit=C, deliveryTimeDays=33}, 
+Material{id=268, name='Polypropylene (PP)', VendorId=11, pricePerUnit=30.0, currency='USD', unit='lbs', meltingPoint=30.0, tempUnit=F, deliveryTimeDays=18}, 
+Material{id=276, name='Polymethyl Methacrylate (PMMA)', VendorId=11, pricePerUnit=14.0, currency='POUND', unit='kg', meltingPoint=14.0, tempUnit=C, deliveryTimeDays=32}, 
+Material{id=279, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=11, pricePerUnit=32.0, currency='POUND', unit='kg', meltingPoint=32.0, tempUnit=F, deliveryTimeDays=21}, 
+Material{id=287, name='Polycarbonate (PC)', VendorId=11, pricePerUnit=17.0, currency='EURO', unit='lbs', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=24}]
+
+Omega Omega Great :
+[
+Material{id=17, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=12, pricePerUnit=27.0, currency='EURO', unit='kg', meltingPoint=27.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=58, name='Polyvinyl Chloride (PVC)', VendorId=12, pricePerUnit=35.0, currency='EURO', unit='kg', meltingPoint=35.0, tempUnit=C, deliveryTimeDays=45}, 
+Material{id=81, name='Polypropylene (PP)', VendorId=12, pricePerUnit=252.0, currency='DKK', unit='lbs', meltingPoint=252.0, tempUnit=F, deliveryTimeDays=7}, 
+Material{id=172, name='Polyethylene Terephthalate (PET)', VendorId=12, pricePerUnit=126.0, currency='DKK', unit='lbs', meltingPoint=126.0, tempUnit=F, deliveryTimeDays=28}, 
+Material{id=271, name='Polyethylene Terephthalate (PET)', VendorId=12, pricePerUnit=36.0, currency='EURO', unit='lbs', meltingPoint=36.0, tempUnit=F, deliveryTimeDays=6}, 
+Material{id=273, name='Polycarbonate (PC)', VendorId=12, pricePerUnit=14.0, currency='EURO', unit='lbs', meltingPoint=14.0, tempUnit=F, deliveryTimeDays=41}]
+
+Bond Omega Alle :
+[
+Material{id=1, name='Polyvinyl Chloride (PVC)', VendorId=13, pricePerUnit=20.0, currency='POUND', unit='kg', meltingPoint=20.0, tempUnit=F, deliveryTimeDays=7}, 
+Material{id=8, name='Polyethylene Terephthalate (PET)', VendorId=13, pricePerUnit=254.0, currency='DKK', unit='lbs', meltingPoint=254.0, tempUnit=F, deliveryTimeDays=17}, 
+Material{id=55, name='Polyvinyl Chloride (PVC)', VendorId=13, pricePerUnit=3.0, currency='USD', unit='kg', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=20}, 
+Material{id=173, name='Polymethyl Methacrylate (PMMA)', VendorId=13, pricePerUnit=98.0, currency='DKK', unit='lbs', meltingPoint=98.0, tempUnit=C, deliveryTimeDays=14}, 
+Material{id=175, name='Polymethyl Methacrylate (PMMA)', VendorId=13, pricePerUnit=151.0, currency='DKK', unit='kg', meltingPoint=151.0, tempUnit=F, deliveryTimeDays=12}, 
+Material{id=214, name='Polycarbonate (PC)', VendorId=13, pricePerUnit=17.0, currency='USD', unit='lbs', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=29}, 
+Material{id=220, name='Polyethylene Terephthalate (PET)', VendorId=13, pricePerUnit=18.0, currency='POUND', unit='kg', meltingPoint=18.0, tempUnit=C, deliveryTimeDays=7}, 
+Material{id=240, name='Polycarbonate (PC)', VendorId=13, pricePerUnit=184.0, currency='DKK', unit='kg', meltingPoint=184.0, tempUnit=C, deliveryTimeDays=20}, 
+Material{id=243, name='Polyvinyl Chloride (PVC)', VendorId=13, pricePerUnit=19.0, currency='EURO', unit='kg', meltingPoint=19.0, tempUnit=F, deliveryTimeDays=7}, 
+Material{id=256, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=13, pricePerUnit=12.0, currency='USD', unit='kg', meltingPoint=12.0, tempUnit=F, deliveryTimeDays=38}, 
+Material{id=298, name='Polyvinyl Chloride (PVC)', VendorId=13, pricePerUnit=22.0, currency='EURO', unit='lbs', meltingPoint=22.0, tempUnit=F, deliveryTimeDays=2}]
+
+Balmy Vej Plastic :
+[
+Material{id=3, name='Polycarbonate (PC)', VendorId=14, pricePerUnit=14.0, currency='POUND', unit='kg', meltingPoint=14.0, tempUnit=F, deliveryTimeDays=27}, 
+Material{id=49, name='Polyethylene Terephthalate (PET)', VendorId=14, pricePerUnit=214.0, currency='DKK', unit='kg', meltingPoint=214.0, tempUnit=C, deliveryTimeDays=5}, 
+Material{id=89, name='Polyvinyl Chloride (PVC)', VendorId=14, pricePerUnit=16.0, currency='USD', unit='kg', meltingPoint=16.0, tempUnit=C, deliveryTimeDays=11}, 
+Material{id=108, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=14, pricePerUnit=16.0, currency='POUND', unit='kg', meltingPoint=16.0, tempUnit=F, deliveryTimeDays=21}, 
+Material{id=113, name='Polyethylene Terephthalate (PET)', VendorId=14, pricePerUnit=12.0, currency='EURO', unit='lbs', meltingPoint=12.0, tempUnit=F, deliveryTimeDays=31}, 
+Material{id=133, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=14, pricePerUnit=32.0, currency='EURO', unit='kg', meltingPoint=32.0, tempUnit=F, deliveryTimeDays=47}, 
+Material{id=161, name='Polyvinyl Chloride (PVC)', VendorId=14, pricePerUnit=143.0, currency='DKK', unit='lbs', meltingPoint=143.0, tempUnit=F, deliveryTimeDays=2}, 
+Material{id=170, name='Polyvinyl Chloride (PVC)', VendorId=14, pricePerUnit=43.0, currency='USD', unit='kg', meltingPoint=43.0, tempUnit=C, deliveryTimeDays=12}, 
+Material{id=216, name='Polyethylene (PE)', VendorId=14, pricePerUnit=22.0, currency='DKK', unit='lbs', meltingPoint=22.0, tempUnit=F, deliveryTimeDays=25}, 
+Material{id=224, name='Polycarbonate (PC)', VendorId=14, pricePerUnit=133.0, currency='DKK', unit='lbs', meltingPoint=133.0, tempUnit=F, deliveryTimeDays=22}, 
+Material{id=236, name='Polymethyl Methacrylate (PMMA)', VendorId=14, pricePerUnit=31.0, currency='POUND', unit='lbs', meltingPoint=31.0, tempUnit=F, deliveryTimeDays=47}, 
+Material{id=255, name='Polycarbonate (PC)', VendorId=14, pricePerUnit=50.0, currency='DKK', unit='lbs', meltingPoint=50.0, tempUnit=C, deliveryTimeDays=32}, 
+Material{id=260, name='Polymethyl Methacrylate (PMMA)', VendorId=14, pricePerUnit=28.0, currency='USD', unit='kg', meltingPoint=28.0, tempUnit=C, deliveryTimeDays=23}, 
+Material{id=262, name='Polypropylene (PP)', VendorId=14, pricePerUnit=19.0, currency='EURO', unit='kg', meltingPoint=19.0, tempUnit=F, deliveryTimeDays=44}, 
+Material{id=284, name='Polyethylene (PE)', VendorId=14, pricePerUnit=39.0, currency='EURO', unit='lbs', meltingPoint=39.0, tempUnit=C, deliveryTimeDays=10}]
+
+Scorching Scorching Great :
+[
+Material{id=2, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=15, pricePerUnit=18.0, currency='USD', unit='kg', meltingPoint=18.0, tempUnit=F, deliveryTimeDays=13}, 
+Material{id=6, name='Polyvinyl Chloride (PVC)', VendorId=15, pricePerUnit=3.0, currency='USD', unit='kg', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=28, name='Polypropylene (PP)', VendorId=15, pricePerUnit=3.0, currency='EURO', unit='kg', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=33}, 
+Material{id=32, name='Polymethyl Methacrylate (PMMA)', VendorId=15, pricePerUnit=33.0, currency='POUND', unit='kg', meltingPoint=33.0, tempUnit=F, deliveryTimeDays=28}, 
+Material{id=47, name='Polyethylene Terephthalate (PET)', VendorId=15, pricePerUnit=9.0, currency='POUND', unit='kg', meltingPoint=9.0, tempUnit=C, deliveryTimeDays=44}, 
+Material{id=62, name='Polyethylene (PE)', VendorId=15, pricePerUnit=34.0, currency='EURO', unit='kg', meltingPoint=34.0, tempUnit=C, deliveryTimeDays=36}, 
+Material{id=65, name='Polyethylene Terephthalate (PET)', VendorId=15, pricePerUnit=31.0, currency='EURO', unit='kg', meltingPoint=31.0, tempUnit=F, deliveryTimeDays=31}, 
+Material{id=67, name='Polymethyl Methacrylate (PMMA)', VendorId=15, pricePerUnit=36.0, currency='EURO', unit='kg', meltingPoint=36.0, tempUnit=C, deliveryTimeDays=37}, 
+Material{id=115, name='Polypropylene (PP)', VendorId=15, pricePerUnit=7.0, currency='EURO', unit='kg', meltingPoint=7.0, tempUnit=F, deliveryTimeDays=11}, 
+Material{id=144, name='Polyethylene (PE)', VendorId=15, pricePerUnit=24.0, currency='EURO', unit='kg', meltingPoint=24.0, tempUnit=F, deliveryTimeDays=46}, 
+Material{id=146, name='Polyvinyl Chloride (PVC)', VendorId=15, pricePerUnit=3.0, currency='POUND', unit='lbs', meltingPoint=3.0, tempUnit=C, deliveryTimeDays=21}, 
+Material{id=155, name='Polyethylene Terephthalate (PET)', VendorId=15, pricePerUnit=102.0, currency='DKK', unit='kg', meltingPoint=102.0, tempUnit=F, deliveryTimeDays=9}, 
+Material{id=156, name='Polyvinyl Chloride (PVC)', VendorId=15, pricePerUnit=5.0, currency='USD', unit='lbs', meltingPoint=5.0, tempUnit=F, deliveryTimeDays=24}, 
+Material{id=160, name='Polypropylene (PP)', VendorId=15, pricePerUnit=263.0, currency='DKK', unit='kg', meltingPoint=263.0, tempUnit=C, deliveryTimeDays=23}, 
+Material{id=169, name='Polyethylene (PE)', VendorId=15, pricePerUnit=43.0, currency='DKK', unit='kg', meltingPoint=43.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=193, name='Polycarbonate (PC)', VendorId=15, pricePerUnit=5.0, currency='POUND', unit='lbs', meltingPoint=5.0, tempUnit=F, deliveryTimeDays=5}, 
+Material{id=207, name='Polypropylene (PP)', VendorId=15, pricePerUnit=28.0, currency='POUND', unit='kg', meltingPoint=28.0, tempUnit=F, deliveryTimeDays=23}, 
+Material{id=215, name='Polyethylene Terephthalate (PET)', VendorId=15, pricePerUnit=38.0, currency='USD', unit='lbs', meltingPoint=38.0, tempUnit=C, deliveryTimeDays=43}, 
+Material{id=264, name='Polyethylene Terephthalate (PET)', VendorId=15, pricePerUnit=6.0, currency='POUND', unit='kg', meltingPoint=6.0, tempUnit=F, deliveryTimeDays=30}, 
+Material{id=267, name='Polyvinyl Chloride (PVC)', VendorId=15, pricePerUnit=33.0, currency='POUND', unit='lbs', meltingPoint=33.0, tempUnit=C, deliveryTimeDays=36}, 
+Material{id=285, name='Polymethyl Methacrylate (PMMA)', VendorId=15, pricePerUnit=216.0, currency='DKK', unit='kg', meltingPoint=216.0, tempUnit=C, deliveryTimeDays=25}, 
+Material{id=286, name='Polyvinyl Chloride (PVC)', VendorId=15, pricePerUnit=6.0, currency='EURO', unit='kg', meltingPoint=6.0, tempUnit=F, deliveryTimeDays=9}, 
+Material{id=292, name='Polypropylene (PP)', VendorId=15, pricePerUnit=152.0, currency='DKK', unit='kg', meltingPoint=152.0, tempUnit=F, deliveryTimeDays=1}]
+
+Alpha Freezing :
+[
+Material{id=41, name='Polypropylene (PP)', VendorId=16, pricePerUnit=13.0, currency='EURO', unit='lbs', meltingPoint=13.0, tempUnit=F, deliveryTimeDays=3}, 
+Material{id=74, name='Polyethylene Terephthalate (PET)', VendorId=16, pricePerUnit=17.0, currency='USD', unit='lbs', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=18}, 
+Material{id=76, name='Polycarbonate (PC)', VendorId=16, pricePerUnit=242.0, currency='DKK', unit='kg', meltingPoint=242.0, tempUnit=C, deliveryTimeDays=8}, 
+Material{id=107, name='Polyvinyl Chloride (PVC)', VendorId=16, pricePerUnit=7.0, currency='USD', unit='kg', meltingPoint=7.0, tempUnit=C, deliveryTimeDays=13}, 
+Material{id=129, name='Polyethylene Terephthalate (PET)', VendorId=16, pricePerUnit=21.0, currency='EURO', unit='kg', meltingPoint=21.0, tempUnit=F, deliveryTimeDays=46}, 
+Material{id=164, name='Polyvinyl Chloride (PVC)', VendorId=16, pricePerUnit=15.0, currency='USD', unit='kg', meltingPoint=15.0, tempUnit=F, deliveryTimeDays=10}, 
+Material{id=166, name='Polypropylene (PP)', VendorId=16, pricePerUnit=44.0, currency='USD', unit='lbs', meltingPoint=44.0, tempUnit=F, deliveryTimeDays=2}, 
+Material{id=188, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=16, pricePerUnit=27.0, currency='EURO', unit='kg', meltingPoint=27.0, tempUnit=C, deliveryTimeDays=29}, 
+Material{id=191, name='Polypropylene (PP)', VendorId=16, pricePerUnit=248.0, currency='DKK', unit='lbs', meltingPoint=248.0, tempUnit=F, deliveryTimeDays=35}, 
+Material{id=199, name='Polymethyl Methacrylate (PMMA)', VendorId=16, pricePerUnit=296.0, currency='DKK', unit='kg', meltingPoint=296.0, tempUnit=F, deliveryTimeDays=46}, 
+Material{id=234, name='Polycarbonate (PC)', VendorId=16, pricePerUnit=28.0, currency='POUND', unit='kg', meltingPoint=28.0, tempUnit=C, deliveryTimeDays=47}]
+
+Cool Omega Blue :
+[
+Material{id=63, name='Polymethyl Methacrylate (PMMA)', VendorId=17, pricePerUnit=36.0, currency='USD', unit='kg', meltingPoint=36.0, tempUnit=C, deliveryTimeDays=26}, 
+Material{id=68, name='Polypropylene (PP)', VendorId=17, pricePerUnit=31.0, currency='USD', unit='lbs', meltingPoint=31.0, tempUnit=C, deliveryTimeDays=25}, 
+Material{id=71, name='Polypropylene (PP)', VendorId=17, pricePerUnit=15.0, currency='POUND', unit='lbs', meltingPoint=15.0, tempUnit=F, deliveryTimeDays=37}, 
+Material{id=84, name='Polypropylene (PP)', VendorId=17, pricePerUnit=16.0, currency='POUND', unit='kg', meltingPoint=16.0, tempUnit=F, deliveryTimeDays=24}, 
+Material{id=103, name='Polycarbonate (PC)', VendorId=17, pricePerUnit=42.0, currency='USD', unit='kg', meltingPoint=42.0, tempUnit=F, deliveryTimeDays=41}, 
+Material{id=106, name='Polyethylene (PE)', VendorId=17, pricePerUnit=30.0, currency='POUND', unit='kg', meltingPoint=30.0, tempUnit=C, deliveryTimeDays=13}, 
+Material{id=116, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=17, pricePerUnit=33.0, currency='USD', unit='lbs', meltingPoint=33.0, tempUnit=C, deliveryTimeDays=36}, 
+Material{id=137, name='Polyvinyl Chloride (PVC)', VendorId=17, pricePerUnit=38.0, currency='USD', unit='kg', meltingPoint=38.0, tempUnit=F, deliveryTimeDays=21}, 
+Material{id=140, name='Polyethylene (PE)', VendorId=17, pricePerUnit=1.0, currency='USD', unit='lbs', meltingPoint=1.0, tempUnit=C, deliveryTimeDays=30}, 
+Material{id=143, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=17, pricePerUnit=22.0, currency='POUND', unit='kg', meltingPoint=22.0, tempUnit=F, deliveryTimeDays=40}, 
+Material{id=147, name='Polycarbonate (PC)', VendorId=17, pricePerUnit=35.0, currency='USD', unit='kg', meltingPoint=35.0, tempUnit=C, deliveryTimeDays=7}, 
+Material{id=149, name='Polymethyl Methacrylate (PMMA)', VendorId=17, pricePerUnit=9.0, currency='USD', unit='kg', meltingPoint=9.0, tempUnit=C, deliveryTimeDays=26}, 
+Material{id=165, name='Polypropylene (PP)', VendorId=17, pricePerUnit=19.0, currency='USD', unit='kg', meltingPoint=19.0, tempUnit=F, deliveryTimeDays=38}, 
+Material{id=187, name='Polycarbonate (PC)', VendorId=17, pricePerUnit=43.0, currency='USD', unit='lbs', meltingPoint=43.0, tempUnit=C, deliveryTimeDays=9}, 
+Material{id=196, name='Polyvinyl Chloride (PVC)', VendorId=17, pricePerUnit=17.0, currency='USD', unit='kg', meltingPoint=17.0, tempUnit=F, deliveryTimeDays=25}, 
+Material{id=198, name='Polyethylene (PE)', VendorId=17, pricePerUnit=23.0, currency='EURO', unit='kg', meltingPoint=23.0, tempUnit=C, deliveryTimeDays=31}, 
+Material{id=204, name='Polycarbonate (PC)', VendorId=17, pricePerUnit=17.0, currency='POUND', unit='kg', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=38}, 
+Material{id=208, name='Polycarbonate (PC)', VendorId=17, pricePerUnit=16.0, currency='USD', unit='lbs', meltingPoint=16.0, tempUnit=C, deliveryTimeDays=9}, 
+Material{id=218, name='Polyvinyl Chloride (PVC)', VendorId=17, pricePerUnit=26.0, currency='USD', unit='kg', meltingPoint=26.0, tempUnit=F, deliveryTimeDays=28}, 
+Material{id=270, name='Polyethylene Terephthalate (PET)', VendorId=17, pricePerUnit=66.0, currency='DKK', unit='lbs', meltingPoint=66.0, tempUnit=F, deliveryTimeDays=32}, 
+Material{id=275, name='Polyethylene (PE)', VendorId=17, pricePerUnit=32.0, currency='EURO', unit='kg', meltingPoint=32.0, tempUnit=F, deliveryTimeDays=18}, 
+Material{id=277, name='Polypropylene (PP)', VendorId=17, pricePerUnit=6.0, currency='USD', unit='lbs', meltingPoint=6.0, tempUnit=F, deliveryTimeDays=14}, 
+Material{id=278, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=17, pricePerUnit=211.0, currency='DKK', unit='lbs', meltingPoint=211.0, tempUnit=C, deliveryTimeDays=40}]
+
+First Warm Great :
+[
+Material{id=45, name='Polymethyl Methacrylate (PMMA)', VendorId=18, pricePerUnit=27.0, currency='EURO', unit='kg', meltingPoint=27.0, tempUnit=C, deliveryTimeDays=15}, 
+Material{id=50, name='Polymethyl Methacrylate (PMMA)', VendorId=18, pricePerUnit=16.0, currency='USD', unit='kg', meltingPoint=16.0, tempUnit=F, deliveryTimeDays=27}, 
+Material{id=57, name='Polyethylene (PE)', VendorId=18, pricePerUnit=21.0, currency='USD', unit='lbs', meltingPoint=21.0, tempUnit=F, deliveryTimeDays=31}, 
+Material{id=82, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=18, pricePerUnit=14.0, currency='POUND', unit='lbs', meltingPoint=14.0, tempUnit=C, deliveryTimeDays=33}, 
+Material{id=96, name='Polyethylene Terephthalate (PET)', VendorId=18, pricePerUnit=9.0, currency='EURO', unit='lbs', meltingPoint=9.0, tempUnit=C, deliveryTimeDays=17}, 
+Material{id=141, name='Polymethyl Methacrylate (PMMA)', VendorId=18, pricePerUnit=31.0, currency='USD', unit='lbs', meltingPoint=31.0, tempUnit=F, deliveryTimeDays=6}, 
+Material{id=162, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=18, pricePerUnit=37.0, currency='DKK', unit='lbs', meltingPoint=37.0, tempUnit=C, deliveryTimeDays=45}, 
+Material{id=180, name='Polypropylene (PP)', VendorId=18, pricePerUnit=87.0, currency='DKK', unit='kg', meltingPoint=87.0, tempUnit=C, deliveryTimeDays=42}, 
+Material{id=201, name='Polypropylene (PP)', VendorId=18, pricePerUnit=32.0, currency='USD', unit='kg', meltingPoint=32.0, tempUnit=C, deliveryTimeDays=8}, 
+Material{id=250, name='Polyvinyl Chloride (PVC)', VendorId=18, pricePerUnit=7.0, currency='POUND', unit='lbs', meltingPoint=7.0, tempUnit=F, deliveryTimeDays=37}, 
+Material{id=252, name='Polyethylene Terephthalate (PET)', VendorId=18, pricePerUnit=8.0, currency='POUND', unit='lbs', meltingPoint=8.0, tempUnit=C, deliveryTimeDays=14}]
+
+Dragon Mild Alle :
+[
+Material{id=16, name='Polyethylene Terephthalate (PET)', VendorId=19, pricePerUnit=270.0, currency='DKK', unit='lbs', meltingPoint=270.0, tempUnit=F, deliveryTimeDays=13}, 
+Material{id=27, name='Polyvinyl Chloride (PVC)', VendorId=19, pricePerUnit=5.0, currency='POUND', unit='lbs', meltingPoint=5.0, tempUnit=F, deliveryTimeDays=4}, 
+Material{id=52, name='Polyethylene Terephthalate (PET)', VendorId=19, pricePerUnit=27.0, currency='POUND', unit='lbs', meltingPoint=27.0, tempUnit=C, deliveryTimeDays=21}, 
+Material{id=69, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=19, pricePerUnit=21.0, currency='DKK', unit='lbs', meltingPoint=21.0, tempUnit=C, deliveryTimeDays=42}, 
+Material{id=94, name='Polymethyl Methacrylate (PMMA)', VendorId=19, pricePerUnit=211.0, currency='DKK', unit='lbs', meltingPoint=211.0, tempUnit=F, deliveryTimeDays=19}, 
+Material{id=105, name='Polyethylene Terephthalate (PET)', VendorId=19, pricePerUnit=34.0, currency='EURO', unit='lbs', meltingPoint=34.0, tempUnit=F, deliveryTimeDays=9}, 
+Material{id=134, name='Polyethylene Terephthalate (PET)', VendorId=19, pricePerUnit=4.0, currency='EURO', unit='kg', meltingPoint=4.0, tempUnit=F, deliveryTimeDays=24}, 
+Material{id=139, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=19, pricePerUnit=27.0, currency='EURO', unit='kg', meltingPoint=27.0, tempUnit=C, deliveryTimeDays=28}, 
+Material{id=154, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=19, pricePerUnit=29.0, currency='POUND', unit='kg', meltingPoint=29.0, tempUnit=F, deliveryTimeDays=1}, 
+Material{id=181, name='Polyethylene Terephthalate (PET)', VendorId=19, pricePerUnit=23.0, currency='POUND', unit='lbs', meltingPoint=23.0, tempUnit=C, deliveryTimeDays=3}, 
+Material{id=182, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=19, pricePerUnit=4.0, currency='EURO', unit='kg', meltingPoint=4.0, tempUnit=C, deliveryTimeDays=10}, 
+Material{id=183, name='Polyethylene Terephthalate (PET)', VendorId=19, pricePerUnit=231.0, currency='DKK', unit='lbs', meltingPoint=231.0, tempUnit=F, deliveryTimeDays=16}, 
+Material{id=185, name='Polyvinyl Chloride (PVC)', VendorId=19, pricePerUnit=12.0, currency='POUND', unit='kg', meltingPoint=12.0, tempUnit=F, deliveryTimeDays=21}, 
+Material{id=238, name='Polyethylene (PE)', VendorId=19, pricePerUnit=24.0, currency='POUND', unit='lbs', meltingPoint=24.0, tempUnit=F, deliveryTimeDays=3}, 
+Material{id=241, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=19, pricePerUnit=35.0, currency='EURO', unit='lbs', meltingPoint=35.0, tempUnit=C, deliveryTimeDays=41}, 
+Material{id=246, name='Polyethylene (PE)', VendorId=19, pricePerUnit=33.0, currency='USD', unit='lbs', meltingPoint=33.0, tempUnit=F, deliveryTimeDays=45}, 
+Material{id=272, name='Polymethyl Methacrylate (PMMA)', VendorId=19, pricePerUnit=14.0, currency='POUND', unit='kg', meltingPoint=14.0, tempUnit=C, deliveryTimeDays=39}]
+
+Vej First Best :
+[
+Material{id=35, name='Polymethyl Methacrylate (PMMA)', VendorId=20, pricePerUnit=21.0, currency='POUND', unit='kg', meltingPoint=21.0, tempUnit=C, deliveryTimeDays=46}, 
+Material{id=75, name='Polymethyl Methacrylate (PMMA)', VendorId=20, pricePerUnit=214.0, currency='DKK', unit='kg', meltingPoint=214.0, tempUnit=C, deliveryTimeDays=33}, 
+Material{id=90, name='Polycarbonate (PC)', VendorId=20, pricePerUnit=30.0, currency='USD', unit='kg', meltingPoint=30.0, tempUnit=C, deliveryTimeDays=35}, 
+Material{id=95, name='Polypropylene (PP)', VendorId=20, pricePerUnit=13.0, currency='EURO', unit='lbs', meltingPoint=13.0, tempUnit=C, deliveryTimeDays=37}, 
+Material{id=100, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=20, pricePerUnit=15.0, currency='POUND', unit='kg', meltingPoint=15.0, tempUnit=C, deliveryTimeDays=46}, 
+Material{id=109, name='Polyethylene (PE)', VendorId=20, pricePerUnit=14.0, currency='EURO', unit='kg', meltingPoint=14.0, tempUnit=C, deliveryTimeDays=6}, 
+Material{id=128, name='Acrylonitrile-Butadiene-Styrene (ABS)', VendorId=20, pricePerUnit=31.0, currency='POUND', unit='kg', meltingPoint=31.0, tempUnit=C, deliveryTimeDays=6}, 
+Material{id=136, name='Polycarbonate (PC)', VendorId=20, pricePerUnit=17.0, currency='POUND', unit='lbs', meltingPoint=17.0, tempUnit=C, deliveryTimeDays=27}, 
+Material{id=153, name='Polycarbonate (PC)', VendorId=20, pricePerUnit=28.0, currency='USD', unit='kg', meltingPoint=28.0, tempUnit=C, deliveryTimeDays=28}, 
+Material{id=233, name='Polypropylene (PP)', VendorId=20, pricePerUnit=16.0, currency='USD', unit='kg', meltingPoint=16.0, tempUnit=C, deliveryTimeDays=14}, 
+Material{id=299, name='Polypropylene (PP)', VendorId=20, pricePerUnit=24.0, currency='POUND', unit='kg', meltingPoint=24.0, tempUnit=C, deliveryTimeDays=5}]
+
+2. Question
+
+Best offers:
+Material: Polyvinyl Chloride (PVC) | Vendor: Great Ally | Delivery time: 5
+Material: Acrylonitrile-Butadiene-Styrene (ABS) | Vendor: Dragon Mild Alle | Delivery time: 10
+Material: Polymethyl Methacrylate (PMMA) | Vendor: Balmy Orange | Delivery time: 7
+Material: Polyethylene (PE) | Vendor: Dragon Omega First | Delivery time: 14
+Material: Polypropylene (PP) | Vendor: Street Bracing | Delivery time: 22
+Material: Polycarbonate (PC) | Vendor: Butterfly Warm Blue | Delivery time: 30
+Material: Polyethylene Terephthalate (PET) | Vendor: Vej Vej | Delivery time: 10
+
+3. Question
+
+Best offer: 
+
+Material{id=195, name='Polymethyl Methacrylate (PMMA)', VendorId=7, pricePerUnit=246.0, currency='DKK', unit='kg', meltingPoint=246.0, tempUnit=C, deliveryTimeDays=23}
+Vendor:
+Vendor{id=7, name='Vej Vej', postalCode=1865, address='293 Bakken Street', contactPerson='Thomas', isEcoFriendly=true}
+
